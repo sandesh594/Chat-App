@@ -1,0 +1,92 @@
+
+.App_input{
+  
+    display: flex;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+
+    border-top: 2px solid gray;
+
+}
+
+.Input_text{
+   
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    padding-top: 10px;
+    flex: 0.95;
+    border-radius: 99px;
+    margin-left: 50px;
+    
+
+}
+
+.input_btn{
+     margin-top: 10px;
+     margin-left: 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    max-height:40px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+   
+    display: none; 
+
+}
+
+#messages{
+    
+    font-size: 30px;
+    position: relative;
+   
+}
+.messages1{
+    background-color: blue;
+
+}
+
+textarea:focus{
+    outline-width:0;
+}
+
+.input_first{
+    background-color:lightgrey;
+    text-align: start;
+    
+    position:absolute;
+    left:0px;
+    margin-left: 15px;
+    color:gray;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+    
+}
+.input_last{
+    background-color: rgb(68, 39, 232);
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+ 
+    color: white;
+    padding-left:15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: absolute;
+    right: 0px;
+
+
+}
+
+#App {
+    height:600px;
+    overflow-y: scroll;
+   
+  }
